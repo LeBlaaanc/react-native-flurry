@@ -1,0 +1,19 @@
+{
+  "name": "react-native-flurry",
+  "version": "0.0.1",
+  "description": "React Native wrapper for Flurry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitkothari/react-native-flurry.git"
+  },
+  "keywords": [
+    "react-native",
+    "flurry"
+  ],
+  "author": "Amit Kothari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amitkothari/react-native-flurry/issues"
+  },
+  "homepage": "https://github.com/amitkothari/react-native-flurry#readme"
+}
