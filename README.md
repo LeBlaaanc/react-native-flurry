@@ -10,18 +10,17 @@ React Native wrapper for [Flurry](http://flurry.com)
 
 npm install react-native-flurry --save
 
+### 2. Integrate Flurry 
 
-### 2. Add it to your project
+Download Flurry iOS SDK and follow the instructions to integrate Flurry to your app.
 
-In Xcode project navigator, right click on Libraries, click on Add Files to "Project Name" and add node_modules/react-native-flurry/RNFlurry.xcodeproj.
+**Please make sure the Flurry library is under project_root/ios/Flurry folder.**
 
-### 3. Integrate Flurry 
+### 3. Add react-native-flurry to your project
 
-Download Flurry iOS SDK and follow the instructions but instead of adding it to the app, add it to RNFlurry.xcodeproj under libraries.
+* In Xcode project navigator, right click on Libraries, click on Add Files to "Project Name" and add node_modules/react-native-flurry/RNFlurry.xcodeproj.
 
-* Right click on RNFlurry.xcodeproj under libraries, click on Add Files to "RNFlurry.xcodeproj" and select Flurry library folder.
-* Add Security.framework and SystemConfiguration.framework to your app.
-
+* Under the project's 'Build Phases' tab, add libRNFlurry.a to 'Link Binary With Libraries'.
 
 ## Usage
 
